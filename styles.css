@@ -106,6 +106,45 @@ header h1 {
   letter-spacing: -0.5px;
 }
 
+.resumen-section {
+  padding: 0;
+  margin-bottom: var(--spacing-xl);
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.resumen-section h2 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-md);
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding-bottom: var(--spacing-xs);
+  border-bottom: 3px solid var(--color-accent);
+  display: inline-block;
+}
+
+.resumen-section p {
+  margin: 0;
+  line-height: 1.8;
+  color: var(--color-text);
+  font-size: 1rem;
+  text-align: left;
+}
+
+.resumen-section strong {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-sm);
+  letter-spacing: -0.5px;
+}
+
 header p {
   color: var(--color-text-light);
   margin-bottom: var(--spacing-sm);
@@ -330,6 +369,14 @@ footer {
     padding: 1.5cm 2cm;
     box-shadow: none;
     border-radius: 0;
+  }
+
+  /* Resumen profesional en impresión */
+  .resumen-section {
+    background: transparent !important;
+    border: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
   }
 
   /* Evitar saltos de página dentro de secciones */
